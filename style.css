@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;1,100;1,700&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+strong {
+    color:#15202A;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #4C7BF3;
+}
+
+.icons ion-icons {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.title h1 {
+    font-size: 48px;
+    color: #969696;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.title p {
+    text-align: center;         
+    color: #15202A;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 19px 63px;
+    border-radius: 28px;
+    background-color:#4C7BF3;
+    border: 1px solid #4C7BF3;
+    color: #FFFFFF;
+}
+
+input {
+    border-radius: 28px;
+    padding: 19px 63px;
+    background-color: #fff;
+    border: 1px solid #C2D3FF;
+}
+
+.copyright p {
+    color: #969696;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.conteudo-imagem {
+    width: 567px;
+    margin: 94px 0 72px 0;
+}
+
+.logo img {
+    margin: 80px 0;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 19px 120px;
+    }
+    
+    .form {
+        flex-direction: column;
+    }
+    .conteudo-imagem {
+        width: 320px;
+    }
+    .copyright {
+        margin-bottom: 40px;
+    }
+}
