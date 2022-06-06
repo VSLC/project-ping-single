@@ -16,6 +16,12 @@ strong {
     font-weight: bold;
 }
 
+::placeholder {
+    color: #B8C7ED;
+    font-size: 16px;
+    text-align: left;
+}
+
 .icons {
     display: flex;
     gap: 12px;
@@ -56,6 +62,12 @@ strong {
     background-color:#4C7BF3;
     border: 1px solid #4C7BF3;
     color: #FFFFFF;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity:0.8;
+    transition: 1s;
 }
 
 input {
